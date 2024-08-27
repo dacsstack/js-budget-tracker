@@ -14,14 +14,7 @@
   text-decoration: none;
   list-style: none;
 }
-@media (min-width: 240px) {
-  body {
-    font-size: 14px;
-  }
-
-  transaction-control .stats p.expense {
-    font-size: 1.5em;
-  }
+@media only screen and (max-width: 240px) {
 }
 
 .note {
