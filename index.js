@@ -39,7 +39,7 @@ function generateTemplate(id, source, amount, time) {
                     <span>${source}</span>
                     <span id="time">${time}</span>
                 </p>
-                $<span>${parseFloat(amount.replace(",", ""))}</span>
+                $<span>${Math.abs(amount)}</span>
                 <i class="bi bi-trash delete"></i>
             </li>`;
 }
