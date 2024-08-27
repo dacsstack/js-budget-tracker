@@ -43,9 +43,9 @@
             </div>
             <div class="stats">
               <h3>Statistics</h3>
-              <p class="balance">Balance: $<span id="balance"></span></p>
-              <p class="income">Income: $<span id="income"></span></p>
-              <p class="expense">Expense: $<span id="expense"></span></p>
+              <p class="balance">Balance: &#8369;<span id="balance"></span></p>
+              <p class="income">Income: &#8369;<span id="income"></span></p>
+              <p class="expense">Expense: &#8369;<span id="expense"></span></p>
             </div>
           </section>
 
@@ -64,6 +64,43 @@
           </section>
         </div>
       </div>
+
+      <title>Budget Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mx-auto p-4">
+        <h1 class="text-2xl font-bold">Budget Tracker</h1>
+
+        <div class="mt-4 p-4 bg-gray-100 rounded">
+            <h2 class="text-xl font-semibold">Income: $500</h2>
+            <h2 class="text-xl font-semibold">Expenses: $200</h2>
+            <h2 class="text-xl font-semibold">Total Balance: $300</h2>
+        </div>
+
+        <table class="mt-4 w-full border">
+            <thead>
+                <tr>
+                    <th class="p-2 border">Date</th>
+                    <th class="p-2 border">Description</th>
+                    <th class="p-2 border">Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="p-2 border">01/01/2022</td>
+                    <td class="p-2 border">Groceries</td>
+                    <td class="p-2 border">$50</td>
+                </tr>
+                <tr>
+                    <td class="p-2 border">01/02/2022</td>
+                    <td class="p-2 border">Gas</td>
+                    <td class="p-2 border">$30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
     </main>
 
     <script src="./index.js"></script>
