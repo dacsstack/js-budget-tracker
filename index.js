@@ -39,27 +39,10 @@ function generateTemplate(id, source, amount, time) {
                     <span>${source}</span>
                     <span id="time">${time}</span>
                 </p>
-                $<span>${Math.abs(amount)}</span>
+                $<span>${parseFloat(amount.replace(",", ""))}</span>
                 <i class="bi bi-trash delete"></i>
             </li>`;
 }
-<table class="mt-4 w-full border expense">
-  <thead>
-    <tr>
-      <th class="p-2 border">Date</th>
-      <th class="p-2 border">Description</th>
-      <th class="p-2 border">Amount</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="p-2 border">01/01/2022</td>
-      <td class="p-2 border expense-list">Groceries</td>
-      <td class="p-2 border">$50</td>
-    </tr>
-  </tbody>
-</table>;
-
 //End Function Generate LI
 
 //Transaction DOM
