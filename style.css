@@ -19,7 +19,7 @@
     font-size: 14px;
   }
 
-  transaction-control {
+  transaction-control .stats p.expense {
     font-size: 1.5em;
   }
 }
