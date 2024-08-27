@@ -26,9 +26,9 @@ function updateStatistics() {
     .reduce((total, transaction) => (total += Math.abs(transaction.amount)), 0);
 
   updatedBalance = updatedIncome - updatedExpense;
-  balance.textContent = updatedBalance;
-  income.textContent = updatedIncome;
-  expense.textContent = updatedExpense;
+  balance.textContent = updatedBalance.toLocaleString();
+  income.textContent = updatedIncome.toLocaleString();
+  expense.textContent = updatedExpense.toLocaleString();
 }
 //End OfUpdate Statistics
 
