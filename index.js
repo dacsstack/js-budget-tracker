@@ -34,15 +34,22 @@ function updateStatistics() {
 
 //Function Generate LI
 function generateTemplate(id, source, amount, time) {
-  return `<li data-id="${id}">
-                <p>
+  return `<tr data-id="${id}">
+                <td>
                     <span>${source}</span>
+                </td>
+                <td>
                     <span id="time">${time}</span>
-                </p>
+                </td>
+                <td>
                 $<span>${Math.abs(amount)}</span>
+                </td>
+                <td>
                 <i class="bi bi-trash delete"></i>
-            </li>`;
+                </td>
+            </tr>`;
 }
+
 //End Function Generate LI
 
 //Transaction DOM
