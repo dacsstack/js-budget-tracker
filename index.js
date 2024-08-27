@@ -39,7 +39,7 @@ function generateTemplate(id, source, amount, time) {
                     <span>${source}</span>
                     <span id="time">${time}</span>
                 </p>
-                $<span>${Math.abs(amount).toLocaleString()}</span>
+                &#8369;<span>${Math.abs(amount).toLocaleString()}</span>
                 <i class="bi bi-trash delete"></i>
             </li>`;
 }
