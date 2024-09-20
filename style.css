@@ -201,3 +201,9 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
+@media screen and (orientation: portrait) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
