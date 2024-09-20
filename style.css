@@ -207,4 +207,9 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+  .transaction-control {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
