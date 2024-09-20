@@ -201,16 +201,12 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 680px) {
   .outer-wrap {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #f5f7fa;
+    background-color: #6380aa;
     padding: 30px;
   }
-
   .inner-wrap {
-    max-width: 1200px;
     margin: auto;
   }
 }
