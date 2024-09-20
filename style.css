@@ -14,21 +14,6 @@
   text-decoration: none;
   list-style: none;
 }
-
-@media only screen and (max-width: 140px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-  .transaction-history {
-    margin: 40px 10px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 30px 0px;
-    box-shadow: var(--box-shadow);
-  }
-}
-
 .note {
   color: #eb596e;
   text-align: center;
@@ -152,12 +137,11 @@ h3 {
 }
 
 .transaction-history {
+  margin: 40px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px 0px;
   box-shadow: var(--box-shadow);
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 30px auto;
 }
 
 .records {
@@ -216,4 +200,16 @@ h3 {
 
 .records i.delete:hover {
   color: #b42b51;
+}
+@media screen and (orientation: portrait) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .transaction-history {
+    background-color: rgb(25, 90, 209);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
 }
