@@ -220,6 +220,8 @@ h3 {
     padding: 20px;
     box-shadow: var(--box-shadow);
     border-radius: 5px;
+    margin: 5px 5px;
+    padding: auto;
   }
   .transaction-control {
     display: flex;
