@@ -14,7 +14,6 @@
   text-decoration: none;
   list-style: none;
 }
-
 .note {
   color: #eb596e;
   text-align: center;
@@ -201,72 +200,4 @@ h3 {
 
 .records i.delete:hover {
   color: #b42b51;
-}
-@media only screen and (max-width: 240px) {
-  .stats {
-    display: flex;
-    flex-direction: column;
-  }
-  .transaction-control {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  .transaction-history {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-  }
-  .records {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px;
-  }
-
-  .records div {
-    flex-grow: 1;
-    padding: 10px;
-  }
-
-  .records li {
-    display: flex;
-    justify-content: space-between;
-    background-color: #ffffff;
-  }
-
-  .records .income li {
-    border-left: 10px solid #2ecc71;
-  }
-
-  .records .expense li {
-    border-left: 10px solid #df5e5e;
-  }
-
-  .records li p:first-child {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .records span {
-    font-size: 18px;
-  }
-
-  .records span#time {
-    color: #717171;
-    font-size: 12px;
-  }
-
-  .records i.delete {
-    margin-left: 15px;
-    color: #082032;
-    cursor: pointer;
-    font-size: 18px;
-  }
-
-  .records i.delete:hover {
-    color: #b42b51;
-  }
 }
