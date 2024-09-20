@@ -202,7 +202,7 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 240px) {
   .stats {
     display: flex;
     flex-direction: column;
