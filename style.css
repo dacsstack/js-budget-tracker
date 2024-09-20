@@ -212,7 +212,7 @@ h3 {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  .transaction-history {
+  .records {
     display: flex;
     flex-direction: column;
   }
