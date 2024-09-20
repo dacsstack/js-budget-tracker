@@ -6,6 +6,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -199,9 +201,16 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media screen and (orientation: portrait) {
-  .main {
-    display: flex;
-    flex-direction: column;
+@media screen and ((max-width: 768px)) {
+  .outer-wrap {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    padding: 30px;
+  }
+
+  .inner-wrap {
+    max-width: 1200px;
+    margin: auto;
   }
 }
