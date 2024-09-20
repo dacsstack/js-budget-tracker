@@ -14,6 +14,9 @@
   text-decoration: none;
   list-style: none;
 }
+@media only screen and (max-width: 240px) {
+}
+
 .note {
   color: #eb596e;
   text-align: center;
@@ -39,7 +42,7 @@ h3 {
 .outer-wrap {
   width: 100%;
   min-height: 100vh;
-  background-color: #9a9b9c;
+  background-color: #f5f7fa;
   padding: 30px;
 }
 
@@ -120,7 +123,6 @@ h3 {
 .stats p.balance {
   background-color: #fff2dd92;
   border-right: 10px solid #f6c065;
-  float: initial;
 }
 
 .stats p.income {
