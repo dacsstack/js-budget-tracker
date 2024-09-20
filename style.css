@@ -14,31 +14,6 @@
   text-decoration: none;
   list-style: none;
 }
-@media all and (max-width: 200px) {
-  h1 {
-    color: orange;
-    font-size: 2rem;
-  }
-  p {
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: white;
-  }
-  ul {
-    display: inline-block;
-  }
-  li {
-    margin-bottom: 15px;
-  }
-  div {
-    text-align: center;
-  }
-  a {
-    color: white;
-  }
-}
 
 .note {
   color: #eb596e;
@@ -226,4 +201,10 @@ h3 {
 
 .records i.delete:hover {
   color: #b42b51;
+}
+@media only screen and (max-width: 240px) {
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
 }
