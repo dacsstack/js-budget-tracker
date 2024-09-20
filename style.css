@@ -232,4 +232,9 @@ h3 {
     flex-grow: 1;
     margin: 5px 5px;
   }
+  .actions .add input {
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px 5px;
+  }
 }
