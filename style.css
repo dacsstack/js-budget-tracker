@@ -236,4 +236,17 @@ h3 {
     box-shadow: var(--box-shadow);
     font-size: 18px;
   }
+  .records .income li {
+    border-left: 10px solid #2ecc71;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .records .expense li {
+    border-left: 10px solid #df5e5e;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
 }
