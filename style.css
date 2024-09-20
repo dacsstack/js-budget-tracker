@@ -205,18 +205,18 @@ h3 {
   .outer-wrap {
     width: 100%;
     min-height: 100vh;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
     padding: 30px;
     overflow: hidden;
   }
   .inner-wrap {
     margin: 0px;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
   }
   .actions {
     margin: 10px;
     padding: 10px;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
     padding: 20px;
     box-shadow: var(--box-shadow);
     border-radius: 5px;
@@ -231,7 +231,7 @@ h3 {
 
   .records {
     justify-content: center;
-    background-color: #f5f7fa;
+    background-color: #ffffff;
     margin: 5px 5px;
     box-shadow: var(--box-shadow);
     font-size: 18px;
