@@ -213,4 +213,9 @@ h3 {
     margin: 0px;
     background-color: #6380aa;
   }
+  .transaction-control {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
