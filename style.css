@@ -213,29 +213,4 @@ h3 {
     margin: 0px;
     background-color: #6380aa;
   }
-  .transaction-control {
-    margin: 30px 30px;
-  }
-  .stats p.income {
-    background-color: #e7fff1ad;
-    border-right: 10px solid #16c77a;
-    justify-items: center;
-  }
-  .transaction-history {
-    margin: 30px 30px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 30px 0px;
-    box-shadow: var(--box-shadow);
-  }
-  .actions,
-  .stats {
-    flex-grow: 1;
-    background-color: #ffffff;
-    padding: 20px;
-    box-shadow: var(--box-shadow);
-    border-radius: 5px;
-    margin: 2px 2px;
-    display: inline-block;
-  }
 }
