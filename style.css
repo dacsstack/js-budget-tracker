@@ -120,6 +120,7 @@ h3 {
 .stats p.balance {
   background-color: #fff2dd92;
   border-right: 10px solid #f6c065;
+  float: initial;
 }
 
 .stats p.income {
