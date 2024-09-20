@@ -14,7 +14,7 @@
   text-decoration: none;
   list-style: none;
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 200px) {
   h1 {
     color: orange;
     font-size: 2rem;
