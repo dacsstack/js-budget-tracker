@@ -14,11 +14,12 @@
   text-decoration: none;
   list-style: none;
 }
-.main {
-  display: flex;
-  flex-direction: column;
-}
+
 @media only screen and (max-width: 240px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
   .transaction-history {
     margin: 40px 10px;
     background-color: #ffffff;
