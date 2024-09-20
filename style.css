@@ -227,4 +227,19 @@ h3 {
     flex-wrap: wrap;
     margin: auto;
   }
+
+  .records li {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    margin: auto;
+    box-shadow: var(--box-shadow);
+    font-size: 18px;
+  }
+
+  .records li p:first-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
