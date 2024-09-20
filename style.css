@@ -231,15 +231,9 @@ h3 {
   .records li {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #77a8d6;
     margin: auto;
     box-shadow: var(--box-shadow);
     font-size: 18px;
-  }
-
-  .records li p:first-child {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
   }
 }
