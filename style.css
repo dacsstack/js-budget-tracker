@@ -228,13 +228,13 @@ h3 {
     padding: 30px 0px;
     box-shadow: var(--box-shadow);
   }
-  .records div {
+  .actions,
+  .stats {
     flex-grow: 1;
-    margin: 5px 5px;
-  }
-  .actions .add input {
-    font-size: 18px;
-    padding: 5px;
-    margin: 5px 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    margin: 2px 2px;
   }
 }
