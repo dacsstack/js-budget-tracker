@@ -201,7 +201,7 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
   .outer-wrap {
     width: 100%;
     min-height: 100vh;
@@ -231,7 +231,7 @@ h3 {
   .records {
     justify-content: center;
     background-color: #f5f7fa;
-    margin: auto;
+    margin: 5px 5px;
     box-shadow: var(--box-shadow);
     font-size: 18px;
   }
