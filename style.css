@@ -229,24 +229,10 @@ h3 {
   }
 
   .records li {
-    display: flex;
     justify-content: center;
     background-color: #77a8d6;
-    margin: auto;
+    margin: 5px 5px;
     box-shadow: var(--box-shadow);
     font-size: 18px;
-  }
-  .records .income li {
-    border-left: 10px solid #2ecc71;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-  }
-
-  .records .expense li {
-    border-left: 10px solid #df5e5e;
-    margin: auto;
-    display: flex;
-    justify-content: center;
   }
 }
