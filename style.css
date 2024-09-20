@@ -201,13 +201,3 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media screen and (orientation: portrait) {
-  .transaction-history {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(25, 90, 209);
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-  }
-}
