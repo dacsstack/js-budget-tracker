@@ -202,11 +202,9 @@ h3 {
   color: #b42b51;
 }
 @media screen and (orientation: portrait) {
-  .main {
+  .transaction-history {
     display: flex;
     flex-direction: column;
-  }
-  .transaction-history > .stats {
     background-color: rgb(25, 90, 209);
     margin: 10px;
     padding: 10px;
