@@ -224,7 +224,6 @@ h3 {
 
   .actions,
   .stats {
-    flex-grow: 1;
     background-color: #ffffff;
     padding: 20px;
     box-shadow: var(--box-shadow);
