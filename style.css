@@ -14,10 +14,29 @@
   text-decoration: none;
   list-style: none;
 }
-@media only screen and (max-width: 240px) {
-  * {
-    margin: 0;
-    padding: 0;
+@media all and (max-width: 400px) {
+  h1 {
+    color: orange;
+    font-size: 2rem;
+  }
+  p {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+  }
+  ul {
+    display: inline-block;
+  }
+  li {
+    margin-bottom: 15px;
+  }
+  div {
+    text-align: center;
+  }
+  a {
+    color: white;
   }
 }
 
