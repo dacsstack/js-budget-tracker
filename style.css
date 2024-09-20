@@ -203,6 +203,8 @@ h3 {
 }
 @media screen and (max-width: 680px) {
   .outer-wrap {
+    width: 100%;
+    min-height: 100vh;
     background-color: #6380aa;
     padding: 30px;
   }
