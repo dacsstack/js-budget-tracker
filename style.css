@@ -228,7 +228,7 @@ h3 {
     margin: auto;
   }
 
-  .records li {
+  .records {
     justify-content: center;
     background-color: #77a8d6;
     margin: 5px 5px;
