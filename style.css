@@ -201,7 +201,7 @@ h3 {
 .records i.delete:hover {
   color: #b42b51;
 }
-@media screen and ((max-width: 768px)) {
+@media screen and (max-width: 768px) {
   .outer-wrap {
     width: 100%;
     min-height: 100vh;
