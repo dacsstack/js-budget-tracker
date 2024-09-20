@@ -219,4 +219,24 @@ h3 {
     flex-wrap: wrap;
     margin: 30px auto;
   }
+  h1 {
+    color: orange;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    background-color: white;
+  }
+  ul {
+    display: inline-block;
+  }
+  li {
+    margin-bottom: 15px;
+  }
+  div {
+    text-align: center;
+  }
+  a {
+    color: white;
+  }
 }
