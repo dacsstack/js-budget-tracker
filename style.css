@@ -207,6 +207,7 @@ h3 {
     min-height: 100vh;
     background-color: #6380aa;
     padding: 30px;
+    overflow: hidden;
   }
   .inner-wrap {
     margin: auto;
