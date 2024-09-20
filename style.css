@@ -213,4 +213,12 @@ h3 {
     margin: 0px;
     background-color: #6380aa;
   }
+  .actions {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+  }
 }
