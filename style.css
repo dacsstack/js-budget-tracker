@@ -227,6 +227,8 @@ h3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 5px 5px;
+    padding: auto;
   }
 
   .records {
