@@ -14,7 +14,14 @@
   text-decoration: none;
   list-style: none;
 }
-@media only screen and (max-width: 240px) {
+@media only screen and (orientation: portrait) {
+  .transaction-control {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px auto;
+  }
 }
 
 .note {
