@@ -220,21 +220,21 @@ h3 {
     padding: 20px;
     box-shadow: var(--box-shadow);
     border-radius: 5px;
-    margin: 5px 5px;
+    margin: 10px;
     padding: auto;
   }
   .transaction-control {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 5px 5px;
+    margin: 10px;
     padding: auto;
   }
 
   .records {
     justify-content: center;
     background-color: #ffffff;
-    margin: 5px 5px;
+    margin: 10px;
     box-shadow: var(--box-shadow);
     font-size: 18px;
   }
